@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+body{
+    background-color: white;
+}
+.wrapper{
+    width: 80%;
+    padding: 5rem 6rem;
+    margin: 100px auto;
+    height: 15em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    background-color: cornsilk;
+    vertical-align: middle;
+}
+.wrapper2{
+    width: 80%;
+    padding: 5rem 6rem;
+    margin: 100px auto;
+    height: 15em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    background-color: cornsilk;
+    vertical-align: middle;
+}
+img.woman{
+    border-radius: 10px;
+}
+img.ads{
+    border-radius: 10px;
+}
+img.glo{
+    border-radius: 10px;
+}
+.wrapper3{
+    width: 80%;
+    padding: 5rem 6rem;
+    margin: 100px auto;
+    height: 90em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    background-color: cornsilk;
+    vertical-align: middle;
+}
+.wrapper4{
+    width: 80%;
+    padding: 5rem 6rem;
+    height: 15em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    background-color: cornsilk;
+    vertical-align: middle;
+    margin: 100px auto;
+}
