@@ -1,103 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-      <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-      <header>
+    <header>
         <h1 class="arizonia-regular">
             <i class="fa-solid fa-utensils"></i> Tasty vault
         </h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Recipes</a>
-          <a href="#">Community</a>
-          <a href="#">Gallery</a>
-        </nav>
-        <a href="index2.html"><button class="btn1">Login</button></a>
-        <a href="index4.html"><button class="btn2">Signup</button></a>
-        <i class="fa-solid fa-bars-staggered" id="bar"></i>
+        <div class="search-box-container">
+            <input type="text" name="" id="box1" class="search-box" placeholder="What are you looking for?">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="account-box">
+            <input type="text" name="" id="box1" class="account" placeholder="Hi, Oluwadamilare"> <i class="fa-solid fa-user"></i>
+        </div>
     </header>
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <!-- <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div> -->
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="images/recipe11.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block" id="taglines">
-        <h3 class="headlines">“From Our Kitchen to Yours – Share, Cook, Savor.”</h3>
-        <p class="sub-headlines">Emphasizes community and personal touch.</p>
-        <br>
-        <a href="#"><button class="btn3">Explore Recipes</button></a>
-      </div>
+    <div class="fixed-icons">
+      <i class="fa-solid fa-house"></i>
+      <br>
+      <i class="fa-solid fa-square-plus"></i>
+      <br>
+      <i class="fa-solid fa-bell"></i>
+      <br>
+      <i class="fa-solid fa-message"></i>
+      <br><br><br><br><br><br><br><br>
+      <i class="fa-solid fa-gear"></i>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="images/recipe8.jfif" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block" id="taglines">
-        <h3 class="headlines">“Where Recipes Meet Stories – Discover, Cook, Connect.”</h3>
-        <p class="sub-headlines">Invites users to explore more than just food—culture and stories too.</p>
-        <br>
-        <a href="#"><button class="btn3">Learn More</button></a>
+
+    <div class="content">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/recipes1.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe2.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe3.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe4.avif" class="d-block w-100" alt="Slide 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe5.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/recipe6.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/recipe9.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block" id="taglines">
-        <h3 class="headlines">“Cook What You Crave – Real Recipes from Real People.”</h3>
-        <p class="sub-headlines">Focuses on authenticity and satisfying cravings.</p>
-        <br>
-        <a href="#"><button class="btn3">Submit Recipes</button></a>
-      </div>
-    </div>
-        <div class="carousel-item">
-      <img src="images/recipe10.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block" id="taglines">
-        <h3 class="headlines">“Your Next Favorite Dish Starts Here.”</h3>
-        <p class="sub-headlines">Creates curiosity and encourages exploration.</p>
-      </div>
-    </div>    
-    <div class="carousel-item">
-      <img src="images/recipe7.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block" id="taglines">
-        <h3 class="headlines">“Taste the World, One Recipe at a Time.”</h3>
-        <p class="sub-headlines">Perfect if your site features global dishes.</p>
-      </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<br><br>
-<p class="headline">Find Your Next Favorite Recipe</p>
-<br>
+      <br>
+      <h1 class="heading">Check out your favourite dishes</h1>
+      <br>
       <div class="foods">
-        <div class="card" style="width: 18rem;" id="cards">
+        <div class="card" style="width: 18rem;">
   <img src="images/jollofrice.jpg" class="card-img-top" alt="..." id="img1">
   <div class="card-body">
-    <p class="card-text"><h3>Italian Lasagna</h3>
+    <p class="card-text"><h3>Jollof rice</h3>
       <h5 class="recipes">
         4 medium tomatoes (fresh or canned)
         <br>
@@ -111,15 +90,15 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
-<div class="card" style="width: 18rem;" id="cards">
+<div class="card" style="width: 18rem;">
   <img src="images/fried rice.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">
-      <h3>English Breakfast</h3>
+      <h3>Fried rice</h3>
       <h5 class="recipes">
         3 cups cold cooked rice (preferably day-old)
         <br>
@@ -133,15 +112,15 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
-<div class="card" style="width: 18rem;" id="cards">
+<div class="card" style="width: 18rem;">
   <img src="images/amala2.jpg" class="card-img-top" alt="..." id="img3">
   <div class="card-body">
     <p class="card-text">
-      <h3>English Muffin</h3>
+      <h3>Amala</h3>
       <h5 class="recipes">
         2 cups yam flour (elubo)
         <br>
@@ -155,15 +134,15 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
-<div class="card" style="width: 18rem;" id="cards">
+<div class="card" style="width: 18rem;">
   <img src="images/coconut rice.jpg" class="card-img-top" alt="..." id="img4">
   <div class="card-body">
     <p class="card-text">
-      <h3>British fish & chips</h3>
+      <h3>Coconut rice</h3>
       <h5 class="recipes">
         3 cups long-grain parboiled rice or sella basmati rice
         <br>
@@ -177,18 +156,18 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
       </div>
       <br>
       <div class="food2">
-        <div class="card" style="width: 18rem;" id="cards">
+        <div class="card" style="width: 18rem;">
   <img src="images/Chinese Noodles.avif" class="card-img-top" alt="..." id="img5">
   <div class="card-body">
     <p class="card-text">
-      <h3>Japanese Ramen</h3>
+      <h3>Chinese Noodles</h3>
       <h5 class="recipes">
         1.5 tablespoons vegetable or peanut oil
         <br>
@@ -202,15 +181,15 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
-  <div class="card" style="width: 18rem;" id="cards">
+  <div class="card" style="width: 18rem;">
   <img src="images/fillipino lumpia2.jpg" class="card-img-top" alt="..." id="img6">
   <div class="card-body">
     <p class="card-text">
-      <h3>Korean kimichi</h3>
+      <h3>Filipino Lumpia</h3>
       <h5 class="recipes">
         1 tablespoon vegetable oil
         <br>
@@ -224,14 +203,14 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
-</div>  <div class="card" style="width: 18rem;" id="cards">
+</div>  <div class="card" style="width: 18rem;">
   <img src="images/brazilian.avif" class="card-img-top" alt="..." id="img7">
   <div class="card-body">
     <p class="card-text">
-      <h3>Thai Fried rice</h3>
+      <h3>Brazilian Feijoada</h3>
       <h5 class="recipes">
         1 pound dried black beans
         <br>
@@ -245,10 +224,10 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
-</div>  <div class="card" style="width: 18rem;" id="cards">
+</div>  <div class="card" style="width: 18rem;">
   <img src="images/american cheese burger.avif" class="card-img-top" alt="..." id="img8">
   <div class="card-body">
     <p class="card-text">
@@ -266,14 +245,14 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
       </div>
       <br>
       <div class="food3">
-          <div class="card" style="width: 18rem;" id="cards">
+          <div class="card" style="width: 18rem;">
   <img src="images/ghanian jollof.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">
@@ -291,10 +270,10 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
-</div>  <div class="card" style="width: 18rem;" id="cards">
+</div>  <div class="card" style="width: 18rem;">
   <img src="images/Korean BBQ.jpg" class="card-img-top" alt="..." id="img10"> 
   <div class="card-body">
     <p class="card-text">
@@ -312,10 +291,10 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
-</div>  <div class="card" style="width: 18rem;" id="cards">
+</div>  <div class="card" style="width: 18rem;">
   <img src="images/Thai Fried Rice.webp" class="card-img-top" alt="..." id="img11">
   <div class="card-body">
     <p class="card-text">
@@ -333,10 +312,10 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
-</div>  <div class="card" style="width: 18rem;" id="cards">
+</div>  <div class="card" style="width: 18rem;">
   <img src="images/Canadian Bacon.webp" class="card-img-top" alt="..." id="img12">
   <div class="card-body">
     <p class="card-text">
@@ -354,12 +333,42 @@
       <i class="fa-solid fa-star" id="golden-yellow"></i>
       <i class="fa-solid fa-star" id="white"></i>
       <br><br>
-      <button class="btn4">View Dish</button> <a href="#" class="read-more">Read more</a>
+      <button>View Dish</button> <a href="#" class="read-more">Read more</a>
     </p>
   </div>
 </div>
       </div>
-      <!-- TastyVault: Unlock the Flavor
-TastyVault is your ultimate online recipe haven, where food lovers discover, share, and explore mouthwatering dishes from around the world. From local favorites to global delights, TastyVault makes cooking exciting and accessible. Each recipe is a key to unforgettable taste — simple, delicious, and community-driven. Whether you're a seasoned chef or a kitchen newbie, unlock your next favorite meal with TastyVault. -->
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+      <br>
+      <footer>
+        <div class="footer-contents">
+          <a href="#">About us</a>
+          <a href="#">Contact us</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Privacy policy</a>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <p class="copyright">&copy; All CopyRights Reserved 2025</p>
+        <h1 class="arizonia-regular" id="second-name">
+           <b>powered by</b> <i class="fa-solid fa-utensils"></i> Tasty vault
+        </h1>
+        <div class="icons">
+          <p class="visit">You can also visit Us via <br> these social media platforms</p>
+                <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+                <form action="" class="form">
+                    <p>Newsletter</p>
+                    <input type="text" placeholder="your name" required>
+                    <br><br>
+                    <input type="email" placeholder="Enter Company Email" required>
+                    <br><br>
+                    <input type="submit" value="submit" id="Newsletter-submit-btn">
+                    <br><br>
+                </form>
+      </footer>
 </body>
 </html>

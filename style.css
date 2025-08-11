@@ -2,61 +2,196 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
-body{
-    background-color: white;
+.arizonia-regular {
+    font-family: "Arizonia", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 25px;
 }
-.wrapper{
-    width: 80%;
-    padding: 5rem 6rem;
-    margin: 100px auto;
-    height: 15em;
-    border-radius: 15px;
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin-left: 27rem;
+    margin-top: 2.7rem;
+}
+nav a{
+    margin: 16px;
+    text-decoration: none;
+    color: #A4B465;
+    transition: .3s;
+}
+nav a:hover{
+    color: #626F47;
+}
+.btn1{
+    height: 2rem;
+    padding: 7px;
+    border: none;
+    margin-top: 2.5rem;
+    background-color: #A4B465;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn1:hover{
+    background-color: #626F47;
+    color: white;
+}
+.btn2{
+    height: 2rem;
+    padding: 7px;
+    border: none;
+    margin-right: 0.5rem;
+    margin-top: 2.5rem;
+    background-color: #A4B465;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn2:hover{
+    background-color: #626F47;
+    color: white;
+}
+#bar{
+    margin-top: 2.5rem;
+    font-size: 30px;
+    margin-right: 1rem;
+    color: #A4B465;
+    cursor: pointer;
+    display: none;
+    transition: .3s;
+}
+#bar:hover{
+    color: #626F47;
+}
+.carousel-inner{
+    max-width: 96%;
+    margin-left: 2rem;
+}
+.carousel-inner img{
+    height: 100vh;
+    border-radius: 5px;
+}
+#taglines{
+    margin-bottom: 7rem;
+}
+.headlines{
+    font-size: 3em;
+    color: #626F47;
+}
+    .carousel-caption {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: slideUpFadeIn 2s ease-out forwards;
+      animation-delay: 0.5s;
+    }
+
+    @keyframes slideUpFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+.sub-headlines{
+    font-size: 2em;
+    color: #A4B465;
+}
+.btn3{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A4B465;
+    transition: .3s;
+}
+.btn3:hover{
+    background-color: #626F47;
+    color: white;
+}
+.headline{
     text-align: center;
-    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
-    background-color: cornsilk;
-    vertical-align: middle;
+    font-size: 2.5em;
 }
-.wrapper2{
-    width: 80%;
-    padding: 5rem 6rem;
-    margin: 100px auto;
-    height: 15em;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
-    background-color: cornsilk;
-    vertical-align: middle;
+.foods{
+    display: flex;
+    gap: 53px;
+    margin-left: 50px;
+    padding: 5px;
+    /* background-color: #e0e0e0; */
 }
-img.woman{
-    border-radius: 10px;
+.food2{
+    display: flex;
+    gap: 53px;
+    margin-left: 50px;
+    padding: 5px;
 }
-img.ads{
-    border-radius: 10px;
+.food3{
+    display: flex;
+    gap: 53px;
+    margin-left: 50px;
+    padding: 5px;
 }
-img.glo{
-    border-radius: 10px;
+#cards{
+    transition: .3s;
+    /* background-color: #e0e0e0; */
 }
-.wrapper3{
-    width: 80%;
-    padding: 5rem 6rem;
-    margin: 100px auto;
-    height: 90em;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
-    background-color: cornsilk;
-    vertical-align: middle;
+#cards:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 3px;
 }
-.wrapper4{
-    width: 80%;
-    padding: 5rem 6rem;
-    height: 15em;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
-    background-color: cornsilk;
-    vertical-align: middle;
-    margin: 100px auto;
+#img1{
+    height: 17rem;
+}
+#img3{
+    height: 19rem;
+}
+#img4{
+    height: 17rem;
+}
+#img5{
+    height: 17rem;
+}
+#img6{
+    height: 18rem;
+}
+#img7{
+    height: 18rem;
+}
+#img8{
+    height: 13.5rem;
+}
+#img10{
+    height: 25rem;
+}
+#img11{
+    height: 25rem;
+}
+#img12{
+    height: 25rem;
+}
+.recipes{
+    font-size: 15px;
+}
+.read-more{
+    margin-left: 4rem;
+}
+#golden-yellow{
+    color: #FFD700;
+}
+#white{
+    color: white;
+    /* border: 1px solid black; */
+}
+.btn4{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #A4B465;
+    transition: .3s;
+}
+.btn4:hover{
+    background-color: #626F47;
+    color: white;
 }

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin: 50px;
+}
+nav a{
+    margin: 15px;
+    text-decoration: none;
+    color: #A4B465;
+    transition: .3s;
+    font-size: 15px;
+}
+nav a:hover{
+    color: #626F47;
+}
+.arizonia-regular {
+    font-family: "Arizonia", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 25px;
+  }
+#arizona2{
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper{
+    float: right;
+    margin-right: 70px;
+    /* background-color: red; */
+    height: 35rem;
+    margin-top: -10px;
+    width: 18rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+h5{
+    text-align: center;
+    font-weight: 400;
+}
+label{
+    font-size: 20px;
+    margin-left: 3px;
+}
+input{
+    margin-left: 10px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0e0e0;
+}
+.Login{
+    text-align: center;
+    width: 15rem;
+    height: 2rem;
+    margin-left: 9px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #A4B465;
+    transition: .3s;
+}
+.Login:hover{
+    background-color: #626F47;
+    color: white;
+}
+hr{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.alternative{
+    margin-bottom: -6rem;
+}
+.social-icons{
+    margin-top: 80px;
+    text-align: center;
+
+}
+.fa-brands{
+    font-size: 30px;
+    margin: 8px;
+    cursor: pointer;
+    color: #A4B465;
+    transition: .3s;
+}
+.fa-brands:hover{
+    color: #626F47;
+    text-shadow: 0 0 50px;
+}
+.account{
+    font-size: 15px;
+    text-align: center;
+}
+.account a{
+    color: #A4B465;
+    transition: .3s;
+}
+.account a:hover{
+    color: blue;
+}
+.content{
+    margin-left: 5rem;
+    max-width: 800px;
+}
+.content h1{
+    font-size: 4.5em;
+    background: linear-gradient(to right, #626F47, #A4B465);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+}
+.content p{
+    font-size: 2em;
+    text-shadow: 0 0 2px;
+}
+.Dish{
+    margin-left: 7rem;
+    padding: 15px;
+    border: none;
+    background-color: #A4B465;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Dish:hover{
+    background-color: #626F47;
+    color: #fff;
+}
+.content h1, .content p, .Dish{
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards;
+  }
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
